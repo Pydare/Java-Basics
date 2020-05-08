@@ -1,4 +1,4 @@
-
+package basics;
 
 public class Singleton{
     private static Singleton singleton = new Singleton();

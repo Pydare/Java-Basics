@@ -1,4 +1,4 @@
-
+package basics;
 public class Dog {
     String breed;
     int ageC;
