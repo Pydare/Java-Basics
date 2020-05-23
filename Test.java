@@ -9,10 +9,12 @@ public class Test {
     
     public static void main(String[] args){
         
-        String s = new String("Welcome-to-Tutorialspoint.com");
-
-        System.out.println("Return value: ");
-        System.out.println(s.split("-", 2));
-    }   
-
+        String s = new String("Welcome to tutorialspoint");
+        
+        
+        for (String res:s.split(" ")){
+            System.out.println(res);
+        }
+        
+    }
 }
